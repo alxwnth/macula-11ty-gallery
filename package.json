@@ -1,0 +1,14 @@
+{
+  "name": "macula-11ty-gallery",
+  "version": "0.0.1",
+  "description": "A template for bootstrapping a simple gallery web site with Macula.Link and 11ty",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "author": "alxwnth",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
