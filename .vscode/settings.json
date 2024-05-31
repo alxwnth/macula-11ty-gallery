@@ -1,0 +1,8 @@
+{
+  "[njk]": {
+    "editor.defaultFormatter": "monosans.djlint"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
