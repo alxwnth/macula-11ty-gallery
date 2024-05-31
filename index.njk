@@ -1,6 +1,18 @@
 ---
 layout: layouts/root.njk
 title: Homepage
+photos:
+    - https://u.macula.link/ByD155QBR0yNgL94YRvsdw-7
+    - https://u.macula.link/AEL6JsQoSk695cl805YWiQ-7
+    - https://u.macula.link/vgJasPbpRNi57GTm_JGIgA-7
 ---
 
-Hello, world!
+<div class="gallery">
+    {% for photo in photos %}
+        <div class="gallery-item">
+            <a href="{{ photo }}/" target="_blank">
+                <img src="{{ photo }}" width="800" height="600" alt="My image" />
+            </a>
+        </div>
+    {% endfor %}
+</div>
